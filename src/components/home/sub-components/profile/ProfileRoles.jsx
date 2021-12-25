@@ -6,24 +6,24 @@ export const ProfileRoles = () => {
     <div className="profile__details--roles">
       <span className="primary-text">
         {" "}
-        <h1>
+        <h3>
           {" "}
           <Typical
             loop={Infinity}
             steps={[
               "Passionate Coder 💻",
-              1500,
+              1250,
               "React.js Developer ⚛️",
-              1500,
+              1250,
               "Process Automation Specialist 📲",
-              1500,
+              1250,
               "IT Engineering Student 🎓",
-              1500,
+              1250,
               "Possess Full-Stack Skills 🌌",
-              1500,
+              1250,
             ]}
           />
-        </h1>
+        </h3>
         <span className="profile__details--roles-tagline">
           Knack for building web applications with front- and back-end
           operations

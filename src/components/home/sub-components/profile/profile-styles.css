@@ -32,9 +32,10 @@
   font-family: "Poppins Light";
 }
 
-.profile__details--roles h1 {
+.profile__details--roles h3 {
   font-size: 40px;
   font-family: cursive;
+  color: #008bff;
 }
 
 .profile__details--options {
