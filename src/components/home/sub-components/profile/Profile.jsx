@@ -1,30 +1,33 @@
 import Typical from "react-typical";
+import { Icon } from "../../../icon/Icon";
 import "./profile.css";
 
 export const Profile = () => {
   return (
     <div className="profile">
       <div className="profile__details">
-        <div className="profile__details--colz">
+        <div className="profile__details--links">
           <a
             href="https://www.linkedin.com/in/maciej-paluszy%C5%84ski-527771190/"
             target={"_blank"}
             rel="noreferrer"
+            className="link"
           >
-            <i className="fa fa-linkedin-square"></i>
+            <Icon iconName={"BsLinkedin"} size={"3em"} color={"#0e76a8"} />
           </a>
           <a
             href="https://github.com/MPaluszynski"
             target={"_blank"}
             rel="noreferrer"
+            className="link"
           >
-            <i className="fa fa-github-square"></i>
+            <Icon iconName={"GoMarkGithub"} size={"3em"} color={"#333"} />
           </a>
         </div>
         <div className="profile__details--name">
           <span className="primary-text">
             {" "}
-            Hello I'm <span className="highlighted-text">Maciek</span>
+            Hello, I'm <span className="highlighted-text">Maciek</span>
           </span>
         </div>
         <div className="profile__details--roles">
@@ -35,16 +38,16 @@ export const Profile = () => {
               <Typical
                 loop={Infinity}
                 steps={[
-                  "Hard Working Coder",
-                  1000,
-                  "React.js Developer",
-                  1000,
-                  "Business Process Developer",
-                  1000,
-                  "IT Engineering student",
-                  1000,
-                  "Full-stack skills",
-                  1000,
+                  "Passionate Coder 💻",
+                  1500,
+                  "React.js Developer ⚛️",
+                  1500,
+                  "Process Automation Specialist 📲",
+                  1500,
+                  "IT Engineering student 🎓",
+                  1500,
+                  "Full-stack skills 🌌",
+                  1500,
                 ]}
               />
             </h1>

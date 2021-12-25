@@ -1,9 +1,9 @@
-import { Profile } from "./components/home/Profile.jsx";
+import { Home } from "./components/home/Home.jsx";
 
 function App() {
   return (
     <div className="App">
-      <Profile />
+      <Home />
     </div>
   );
 }

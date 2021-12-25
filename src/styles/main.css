@@ -17,6 +17,7 @@
   --toast-shadow: #9c9c9ce3;
   --toast-success: #0cbfae;
   --loader-color: #0cbfae;
+  --background: #1f2235;
 }
 
 @font-face {
@@ -119,7 +120,7 @@ body ::-webkit-scrollbar-thumb {
   color: var(--white);
   border: 2px solid linen;
   font-size: 12px;
-  background-color: #1f2235;
+  background-color: var(--background);
 }
 
 .highlighted-btn {
