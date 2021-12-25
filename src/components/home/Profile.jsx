@@ -35,20 +35,35 @@ export const Profile = () => {
               <Typical
                 loop={Infinity}
                 steps={[
-                  "1111",
-                  1000,
-                  "2222",
-                  1000,
-                  "3333",
-                  1000,
-                  "4444",
-                  1000,
-                  "5555",
-                  1000,
+                  "Hard Working Coder",
+                  1250,
+                  "React/React Native Dev",
+                  1250,
+                  "Business Process Developer",
+                  1250,
+                  "IT Engineering student",
+                  1250,
+                  "Full-stack skills",
+                  1250,
                 ]}
               />
             </h1>
+            <span className="profile__details--roles-tagline">
+              Passion for building web applications with front and back end
+              operations
+            </span>
           </span>
+        </div>
+        <div className="profile__details--options">
+          <button className="btn primary-btn">Hire Me</button>
+          <a
+            href={"files/cvpl.pdf"}
+            target="_blank"
+            download={"cvpl.pdf"}
+            rel="noreferrer"
+          >
+            <button className="btn highlighted-btn">Get Resume</button>
+          </a>
         </div>
       </div>
     </div>
