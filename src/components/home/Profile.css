@@ -1,0 +1,64 @@
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  height: 10%;
+  min-height: fit-content;
+  background-color: #1f2235;
+  color: aliceblue;
+}
+
+.profile__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile__details--name {
+  font-size: 24px;
+  font-family: "Poppins SemiBold";
+}
+
+.profile__details--roles {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+
+.profile__details--roles-tagline {
+  font-size: 19px;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
+}
+
+.profile__details--roles h1 {
+  font-size: 40px;
+  font-family: cursive;
+}
+
+.profile__details--options {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.profile__picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 0 0 var(--white);
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+}
+
+.profile__picture--background {
+  height: 95%;
+  width: 95%;
+  background-image: url("./../../assets/images/profilephoto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: center;
+}

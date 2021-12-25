@@ -1,11 +1,11 @@
 import Typical from "react-typical";
+import "./profile.css";
 
 export const Profile = () => {
   return (
     <div className="profile">
-      <div className="profile__container">
-        <div className="profile__details">
-          <div className="profile__details--colz"></div>
+      <div className="profile__details">
+        <div className="profile__details--colz">
           <a
             href="https://www.linkedin.com/in/maciej-paluszy%C5%84ski-527771190/"
             target={"_blank"}
@@ -36,15 +36,15 @@ export const Profile = () => {
                 loop={Infinity}
                 steps={[
                   "Hard Working Coder",
-                  1250,
-                  "React/React Native Dev",
-                  1250,
+                  1000,
+                  "React.js Developer",
+                  1000,
                   "Business Process Developer",
-                  1250,
+                  1000,
                   "IT Engineering student",
-                  1250,
+                  1000,
                   "Full-stack skills",
-                  1250,
+                  1000,
                 ]}
               />
             </h1>
@@ -58,13 +58,16 @@ export const Profile = () => {
           <button className="btn primary-btn">Hire Me</button>
           <a
             href={"files/cvpl.pdf"}
-            target="_blank"
+            target={"_blank"}
             download={"cvpl.pdf"}
-            rel="noreferrer"
+            rel={"noreferrer"}
           >
             <button className="btn highlighted-btn">Get Resume</button>
           </a>
         </div>
+      </div>
+      <div className="profile__picture">
+        <div className="profile__picture--background"></div>
       </div>
     </div>
   );

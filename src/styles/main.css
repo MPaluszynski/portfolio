@@ -125,16 +125,16 @@ body ::-webkit-scrollbar-thumb {
 .highlighted-btn {
   color: var(--white);
   font-size: 12px;
-  background-color: #ff5823;
+  background-color: var(--dark-orange);
 }
 
 .primary-btn:hover {
-  color: aliceblue;
-  border: 2px solid #ff5823;
+  color: var(--dark-orange);
+  border: 2px solid var(--dark-orange);
 }
 
 .highlighted-btn:hover {
-  border: 2px solid #ff5823;
+  border: 2px solid var(--white);
 }
 
 @media only screen and (max-width: 568px) {
@@ -151,4 +151,12 @@ body ::-webkit-scrollbar-thumb {
   opacity: 0;
   transform: translateY(80px);
   transition: all 0.8s ease;
+}
+
+.primary-text {
+  color: var(--white);
+}
+
+.highlighted-text {
+  color: var(--dark-orange);
 }
