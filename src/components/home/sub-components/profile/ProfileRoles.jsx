@@ -19,8 +19,6 @@ export const ProfileRoles = () => {
               1250,
               "IT Engineering Student 🎓",
               1250,
-              "Possess Full-Stack Skills 🌌",
-              1250,
             ]}
           />
         </h3>

@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  height: 6vh;
+  width: 100%;
+  background-color: var(--background);
+  color: var(--white);
+}
+
+.navbar__link,
+.navbar__link--clicked {
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 600;
+  margin-right: 50px;
+}
+
+.navbar__link--clicked {
+  color: var(--orange);
+}
