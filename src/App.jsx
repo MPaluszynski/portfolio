@@ -2,14 +2,14 @@ import "./styles/app-styles.css";
 
 import { Home } from "./components/home/Home.jsx";
 import { ParticlesBackground } from "./components/particlesBackground/ParticlesBackground.jsx";
-import { Heading } from "./components/heading/Heading.jsx";
+import { AboutMe } from "./components/aboutMe/AboutMe.jsx";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <ParticlesBackground />
       <Home />
-      <Heading title={"Resume"} description={"My Format Bio Details"} />
+      <AboutMe />
     </div>
   );
 }

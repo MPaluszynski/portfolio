@@ -1,6 +1,6 @@
 import { ProfileLinks } from "./ProfileLinks";
 import { ProfileRoles } from "./ProfileRoles";
-import { ProfileOptions } from "./ProfileOptions";
+import { Buttons } from "../../../_reusableComponents/buttons/Buttons.jsx";
 import "./profile-styles.css";
 
 export const Profile = () => {
@@ -15,7 +15,7 @@ export const Profile = () => {
           </span>
         </div>
         <ProfileRoles />
-        <ProfileOptions />
+        <Buttons />
       </div>
       <div className="profile__picture">
         <div className="profile__picture--background"></div>

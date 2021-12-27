@@ -1,8 +1,8 @@
-import "./profile-styles.css";
+import "./buttons-styles.css";
 
-export const ProfileOptions = () => {
+export const Buttons = () => {
   return (
-    <div className="profile__details--options">
+    <div className="buttons">
       <button className="btn primary-btn">Hire Me</button>
       <a
         href={"files/cvpl.pdf"}

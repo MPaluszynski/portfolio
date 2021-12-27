@@ -1,4 +1,4 @@
-import { Icon } from "../../../icon/Icon";
+import { Icon } from "../../../_reusableComponents/icon/Icon.jsx";
 import "./profile-styles.css";
 
 export const ProfileLinks = () => {
