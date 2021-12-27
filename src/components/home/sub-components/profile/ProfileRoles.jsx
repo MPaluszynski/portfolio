@@ -11,7 +11,7 @@ export const ProfileRoles = () => {
           <Typical
             loop={Infinity}
             steps={[
-              "Passionate Coder 💻",
+              "Hard-working Coder 💻",
               1250,
               "React.js Developer ⚛️",
               1250,
@@ -23,7 +23,7 @@ export const ProfileRoles = () => {
           />
         </h3>
         <span className="profile__details--roles-tagline">
-          Knack for building web applications with front- and back-end
+          Passion for building web applications with front- and back-end
           operations
         </span>
       </span>
