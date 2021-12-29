@@ -6,7 +6,7 @@ import { Buttons } from "../_reusableComponents/buttons/Buttons";
 
 export const AboutMe = () => {
   const renderedArray = aboutHighlightsArray.map((highlight) => {
-    return <div key={highlight.id}>{highlight.name}</div>;
+    return <div key={highlight.id}>🟠{highlight.name}</div>;
   });
 
   return (
@@ -15,11 +15,12 @@ export const AboutMe = () => {
       <div className="about-me__card">
         <div className="about-me__card--photo"></div>
         <div className="about-me__card--details">
-          <div className="about-me__card--details--description">
+          <div className="about-me__card--details--container">
+            <span className="details--heading">Skills and Background:</span>
             {aboutMeDescription}
           </div>
-          <div className="about-me__card--details--highlights">
-            <span>Here are a few highlights</span>
+          <div className="about-me__card--details--container">
+            <span className="details--heading">Here are a few highlights:</span>
             {renderedArray}
           </div>
           <Buttons />
